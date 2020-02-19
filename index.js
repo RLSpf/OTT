@@ -39,7 +39,7 @@ bot.on('disconnect', e => {
   console.log('Bot disconnected:', e)
 })
 
-bot.login(Njc5NzQ2NTQ0OTY2MDQxNjAx.Xk11Yw.V1wOP13zCX3PmqSYO8gQC_eLauw)
+bot.login(token)
 
 
 module.exports = bot
