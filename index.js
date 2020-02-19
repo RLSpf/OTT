@@ -1,6 +1,8 @@
 // Dependencies
 require('dotenv').config({ path: `${__dirname}/.env` })
 const Discord = require('discord.js')
+const client = new Discord.Client();
+const token = process.env.token;
 
 // Queue Managment
 const { removeOfflinePlayerFromQueue } = require('./utils/managePlayerQueues')
